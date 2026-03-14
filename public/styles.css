@@ -1,0 +1,74 @@
+body{
+    font-family: 'Nunito';
+    background-image: url('house-drizzle.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+h2{
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #575ed8;
+}
+
+#arirang{
+    max-width: 600px;
+    margin: 30px auto;
+    border: 1px solid #ddd;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#chat-window{
+    height: 400px;
+    overflow: auto;
+    border-bottom: 1px solid #ddd;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+#output {
+    background: transparent;
+    width: 100%;
+    height: 100%;
+}
+
+#feedback {
+    background: transparent;
+}
+
+#output strong{
+    color: #000582;
+}
+
+label{
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 20px;
+}
+
+input{
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: #eee;
+    border: 0;
+    display: block;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    font-family: Nunito;
+    font-size: 16px;
+}
+
+button{
+    background: #8806CE;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 0 0 2px 2px;
+}

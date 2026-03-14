@@ -1,0 +1,21 @@
+{
+  "name": "iot_websocket",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Natania Philippe",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "save": "^2.9.0",
+    "save-dev": "^0.0.1-security",
+    "socket.io": "^4.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
