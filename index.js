@@ -26,6 +26,11 @@ var server = app.listen(3000, function(){
 // static files
 app.use(express.static('public'));
 
+app.use((req, res, next) => {
+    res.setHeader('ngrok-skip-browser-warning', 'true');
+    next();
+});
+
 // socket setup
 var io = socket(server);
 

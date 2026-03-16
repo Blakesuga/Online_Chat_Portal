@@ -46,11 +46,6 @@ toxicity.load(threshold).then(function(model) {
     });
 });
 
-// typing - outside toxicity block so it works immediately
-message.addEventListener('keypress', function(){
-    socket.emit('typing', handle.value);
-});
-
 // listen for events - outside toxicity block
 socket.on('chat', function(data){
     output.innerHTML += '<p><strong>' + data.handle + ': </strong>' + data.message + '</p>';
