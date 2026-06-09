@@ -10,7 +10,7 @@ persistence — the 10 most recent messages load automatically on page refresh.
 
 - Real-time messaging via WebSockets (Socket.io)
 - "Is typing..." live indicator
-- Toxicity detection using TensorFlow.js — explicit content is replaced with *****
+- Toxicity detection using TensorFlow.js — explicit content is replaced with "*****"
 - Message persistence with Firebase Firestore (loads 10 most recent messages on connect)
 - Publicly shareable via ngrok
 
