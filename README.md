@@ -51,14 +51,14 @@ Make sure you have the following installed:
 ```
 
 3. Create a `.env` file in the root directory and add your Firebase config keys:
-'''
+```
 API_KEY=your_api_key
 AUTH_DOMAIN=your_auth_domain
 PROJECT_ID=your_project_id
 STORAGE_BUCKET=your_storage_bucket
 MESSAGING_SENDER_ID=your_messaging_sender_id
 APP_ID=your_app_id
-'''
+```
 ---
 
 ## Running the App
@@ -88,7 +88,8 @@ APP_ID=your_app_id
 ---
 
 ## Project Structure
-'''
+
+```
 chat-app/
 ├── node_modules/
 ├── index.js
@@ -100,7 +101,7 @@ chat-app/
 ├── package.json
 ├── package-lock.json
 └── README.md
-'''
+```
 ---
 
 ## Notes
